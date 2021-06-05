@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap"
+      rel="stylesheet"
+    />
+    <title>Black-jack!</title>
+  </head>
+  <body>
+    <section class="page-container">
+      <h1 id="header">BLACKJACK!</h1>
+      <div class="card-table">
+        <div class="btn-container">
+          <button class="btn restart">restart</button>
+          <button class="btn draw">draw</button>
+          <button class="btn hold">hold</button>
+        </div>
+        <div class="cards-container">
+          <div class="card-container p1">
+            <h3>player 1</h3>
+            <p class="p1Hand"></p>
+            <h3 class="p1-score"></h3>
+          </div>
+          <div class="card-container p2">
+            <h3>player 2</h3>
+            <p class="cpuHand"></p>
+            <h3 class="cpu-score"></h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

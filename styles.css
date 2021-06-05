@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Oleo Script', cursive;
+}
+
+.page-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a3939;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.win {
+  width: 75%;
+}
+
+.card-table {
+  height: 450px;
+  width: 900px;
+  max-width: 600px;
+  padding: 40px;
+  background-color: white;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 5px 15px;
+  border-radius: 25px;
+  margin: 0 25px;
+  margin-bottom: 40px;
+  background-color: #3a3939;
+  color: white;
+  border: none;
+  font-family: 'Oleo Script', cursive;
+  font-size: 17px;
+}
+
+.cards-container {
+  background-color: #3a3939;
+  border: solid 1px white;
+  height: auto;
+  width: 100%;
+  display: flex;
+  font-size: 17px;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  border: solid 1px black;
+  margin: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.card-container p {
+  display: flex;
+  margin: 0 4px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
